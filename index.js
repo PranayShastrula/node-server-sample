@@ -6,7 +6,7 @@ console.log('inside get')
 res.send('Hello Friends!!');
 });
 
-let server = app.listen(8081, function () {
+let server = app.listen(3000, function () {
     var host = server.address().address
     var port = server.address().port
     
